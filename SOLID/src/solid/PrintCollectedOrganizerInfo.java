@@ -9,14 +9,13 @@ package solid;
  *
  * @author Taposh
  */
-public class PrintCollectedOrganizerInfo {
+public class PrintCollectedOrganizerInfo implements PrintCollectedOrganizerInfoInterface{
 
     public void printCollectedOrganizerInfo(OrganizerInfo s, int x) {
-        for (int i = 1; i <= x; i++) {
-            System.out.println("Event organizer name " + i + ": " + s.Name);
-            System.out.println("Event organizer Title " + i + ": " + s.Title);
-            System.out.println("Event organizer ContactNo. " + i + ": " + s.Contact);
-        }
+        
+            System.out.println("Event organizer name "  + ": " + s.Name);
+            System.out.println("Event organizer Title "  + ": " + s.Title);
+            System.out.println("Event organizer ContactNo. "  + ": " + s.Contact);
 
     }
 

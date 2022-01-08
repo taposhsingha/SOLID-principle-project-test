@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author Taposh
  */
-public class TeamPlayerInfo {
+public class TeamPlayerInfo implements TeamPlayerInfoInterface{
 
     String Name;
     String Contact;

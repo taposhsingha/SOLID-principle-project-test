@@ -9,16 +9,8 @@ package solid;
  *
  * @author Taposh
  */
-public class InsertName implements InsertNameInterface{
-
-    String Name;
-
-    public void insertName(String name) {
-        this.Name = name;
-    }
-
-    public void getName() {
-        System.out.println(Name);
-    }
-
+public interface ComputeEventCostInterface {
+    void collectCostInfo();
+    public int getTotalExpense();
+    public int getTotalFee();
 }

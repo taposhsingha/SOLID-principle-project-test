@@ -9,7 +9,7 @@ package solid;
  *
  * @author Taposh
  */
-public class OrganizerInfo {
+public class OrganizerInfo implements OrganizerInfoInterface{
 
     String Name;
     String Contact;

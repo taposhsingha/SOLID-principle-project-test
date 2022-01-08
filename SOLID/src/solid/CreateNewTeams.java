@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Taposh
  */
-public class CreateNewTeams {
+public class CreateNewTeams implements CreateNewTeamsInterface{
     Scanner scan = new Scanner(System.in);
     static int total_fee;
     

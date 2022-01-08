@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Taposh
  */
-public class GetTeamsInfo {
+public class GetTeamsInfo implements GetTeamsInfoInterface{
 
     Scanner scan = new Scanner(System.in);
     int total_fee = 0;

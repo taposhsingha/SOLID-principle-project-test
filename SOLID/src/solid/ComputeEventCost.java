@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Taposh
  */
-public class ComputeEventCost {
+public class ComputeEventCost implements ComputeEventCostInterface{
 
     Scanner scan = new Scanner(System.in);
     int total_expense = 0;

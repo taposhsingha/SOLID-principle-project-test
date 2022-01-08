@@ -15,7 +15,7 @@ public class SOLID {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        CreateNewEvent sports_event = new CreateNewEvent();
+        CreateSportsEvent sports_event = new CreateSportsEvent();
         sports_event.createNewEvent();
         EventFeasibility event_decision = new EventFeasibility();
         event_decision.eventFeasibility();

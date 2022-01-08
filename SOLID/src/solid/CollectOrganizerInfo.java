@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Taposh
  */
-public class CollectOrganizerInfo {
+public class CollectOrganizerInfo implements CollectOrganizerInterface{
 
     Scanner scan = new Scanner(System.in);
 
@@ -26,8 +26,9 @@ public class CollectOrganizerInfo {
             OrganizerInfo s1 = new OrganizerInfo(name, contact, title);
             PrintCollectedOrganizerInfo s = new PrintCollectedOrganizerInfo();
             s.printCollectedOrganizerInfo(s1, x);
-            CreateNewTeams a= new CreateNewTeams();
-            a.createNewTeams();
+            
         }
+        CreateNewTeams a= new CreateNewTeams();
+            a.createNewTeams();
     }
 }

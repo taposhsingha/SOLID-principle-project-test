@@ -9,13 +9,12 @@ package solid;
  *
  * @author Taposh
  */
-public class PrintCollectedTeamsInfo {
+public class PrintCollectedTeamsInfo implements PrintCollectedTeamsInfoInterface{
     public void printCollectedOrganizerInfo(TeamPlayerInfo s, int x) {
-        for (int i = 1; i <= x; i++) {
-            System.out.println("Team member name " + i + ": " + s.Name);
-            System.out.println("Team member Contact " + i + ": " + s.Contact);
-            System.out.println("Team member Fee " + i + ": " + s.Fee);
-        }
+
+            System.out.println("Team member name " + ": " + s.Name);
+            System.out.println("Team member Contact " + ": " + s.Contact);
+            System.out.println("Team member Fee " + ": " + s.Fee);
 
     }
     
