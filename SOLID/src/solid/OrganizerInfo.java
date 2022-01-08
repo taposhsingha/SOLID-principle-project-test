@@ -20,4 +20,16 @@ public class OrganizerInfo {
         this.Title = title;
         this.Contact = contact;
     }
+
+    public String getName() {
+        return Name;
+    }
+
+    public String getContact() {
+        return Contact;
+    }
+
+    public String getTitle() {
+        return Title;
+    }
 }

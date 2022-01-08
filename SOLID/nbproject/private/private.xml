@@ -3,9 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Taposh/Documents/NetBeansProjects/SOLID/src/solid/Display.java</file>
+            <file>file:/C:/Users/Taposh/Documents/NetBeansProjects/SOLID/src/solid/InsertNumoforganizers.java</file>
+            <file>file:/C:/Users/Taposh/Documents/NetBeansProjects/SOLID/src/solid/getPlayerInfo.java</file>
+            <file>file:/C:/Users/Taposh/Documents/NetBeansProjects/SOLID/src/solid/TeamPlayerInfo.java</file>
             <file>file:/C:/Users/Taposh/Documents/NetBeansProjects/SOLID/src/solid/SOLID.java</file>
-            <file>file:/C:/Users/Taposh/Documents/NetBeansProjects/SOLID/src/solid/Insert.java</file>
+            <file>file:/C:/Users/Taposh/Documents/NetBeansProjects/SOLID/src/solid/InsertName.java</file>
+            <file>file:/C:/Users/Taposh/Documents/NetBeansProjects/SOLID/src/solid/OrganizerInfo.java</file>
         </group>
     </open-files>
 </project-private>
