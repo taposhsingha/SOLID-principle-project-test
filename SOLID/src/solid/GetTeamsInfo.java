@@ -18,17 +18,17 @@ public class GetTeamsInfo implements GetTeamsInfoInterface{
     public void collectTeamInfo(int e, int m) {
         
         for (int i = 1; i <= e; i++) {
-            System.out.println("Enter Team " + " name:");
+            System.out.println("Enter Team " + i + " name:");
             InsertName sports_teams_name = new InsertName();
             String teamname = scan.nextLine();
             sports_teams_name.insertName(teamname);
             sports_teams_name.getName();
             for (int j = 1; j <= m; j++) {
-                System.out.println("Team " + " players name " + i + ":");
+                System.out.println("Insert name of player "+ j +" of team "+i+": ");
                 String name = scan.nextLine();
-                System.out.println("Team " + " players Contact " + i + ": ");
+                System.out.println("Insert contact of player "+ j +" of team "+i+": ");
                 String contact = scan.nextLine();
-                System.out.println("Team" + " players Fee " + i + ": ");
+                System.out.println("Insert fee of player "+ j +" of team "+i+": ");
                 int fee = scan.nextInt();
                 scan.nextLine();
                 TeamPlayerInfo s1 = new TeamPlayerInfo(name, contact, fee);

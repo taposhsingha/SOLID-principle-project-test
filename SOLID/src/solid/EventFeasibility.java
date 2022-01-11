@@ -11,13 +11,16 @@ package solid;
  */
 public class EventFeasibility {
     public void eventFeasibility(){
+        int moneygap=0;
         ComputeEventCost a = new ComputeEventCost();
         a.collectCostInfo();
         
         if(a.getTotalExpense()>a.getTotalFee()){
-            System.out.println("This sports event is not feasible financially!");
+            moneygap = a.getTotalExpense()-a.getTotalFee();
+            System.out.println("This sports event is not feasible financially! You need "+moneygap+" to organize this event!");
         } else{
-            System.out.println("This sports event is feasible financially!");
+            moneygap = a.getTotalFee()-a.getTotalExpense();
+            System.out.println("This sports event is feasible financially! You have "+moneygap+" remaining!");
         }
     }
     

@@ -17,11 +17,11 @@ public class CollectOrganizerInfo implements CollectOrganizerInterface{
 
     public void selectNewOrganizer(int x) {
         for(int i=1;i<=x;i++){
-            System.out.println("Enter organizers name " + i + ":");
+            System.out.println("Insert name of organizer "+i+": ");
             String name = scan.nextLine();
-            System.out.println("Enter organizers title " + i + ": ");
+            System.out.println("Insert title of organizer "+i+": ");
             String title = scan.nextLine();
-            System.out.println("Enter organizers contact " + i + ": ");
+            System.out.println("Insert contact of organizer "+i+": ");
             String contact = scan.nextLine();
             OrganizerInfo s1 = new OrganizerInfo(name, contact, title);
             PrintCollectedOrganizerInfo s = new PrintCollectedOrganizerInfo();
